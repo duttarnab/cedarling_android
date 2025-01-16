@@ -1,6 +1,6 @@
 {
     "CEDARLING_APPLICATION_NAME": "My App",
-    "CEDARLING_POLICY_STORE_URI": "https://raw.githubusercontent.com/duttarnab/cedarling_android/refs/heads/main/policy-store-4.json",
+    "CEDARLING_POLICY_STORE_URI": "https://raw.githubusercontent.com/JanssenProject/jans/refs/heads/main/jans-cedarling/test_files/policy-store_readable.json",
     "CEDARLING_POLICY_STORE_ID": "840da5d85403f35ea76519ed1a18a33989f855bf1cf8",
     "CEDARLING_LOG_TYPE": "std_out",
     "CEDARLING_LOG_LEVEL": "DEBUG",
