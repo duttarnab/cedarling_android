@@ -1,3 +1,15 @@
+===================================================
+Resource
+{
+  "app_id": "application_id",
+  "id": "some_id",
+  "name": "Some Application",
+  "sub": "I2pKuHi6CCOcSFgTL3qTgNtUX16WSSV1pqR3kOVAX1o",
+  "type": "Jans::Issue"
+}
+
+===================================================
+
 {
     "tokens": {
         "access_token": ACCESS_TOKEN,
