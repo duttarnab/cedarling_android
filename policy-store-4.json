@@ -22,7 +22,7 @@
           "policy_content": {
             "encoding": "none",
             "content_type": "cedar",
-            "body": "permit(\n    principal is Jans::User,\n    action in [Jans::Action::\"Update\"],\n    resource is Jans::Issue\n)when{\n    principal.country == resource.country\n};"
+            "body": "permit(\n    principal is Jans::User,\n    action in [Jans::Action::\"Update\"],\n    resource is Jans::Issue\n)when{\n    principal.sub == resource.sub\n};"
           }
         }
       },
