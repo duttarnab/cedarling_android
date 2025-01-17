@@ -1,4 +1,6 @@
 ===================================================
+"action": 'Jans::Action::"Read"',
+
 Resource
 {
   "app_id": "application_id",
