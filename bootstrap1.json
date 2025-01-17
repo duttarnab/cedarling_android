@@ -27,7 +27,7 @@
   "CEDARLING_LOCK_SSA_JWT": null,
   "CEDARLING_LOG_LEVEL": "DEBUG",
   "CEDARLING_LOG_TTL": null,
-  "CEDARLING_LOG_TYPE": "std_out",
+  "CEDARLING_LOG_TYPE": "memory",
   "CEDARLING_POLICY_STORE_ID": "840da5d85403f35ea76519ed1a18a33989f855bf1cf8",
   "CEDARLING_POLICY_STORE_LOCAL_FN": null,
   "CEDARLING_POLICY_STORE_URI": "https://raw.githubusercontent.com/duttarnab/cedarling_android/refs/heads/main/policy-store-4.json",
