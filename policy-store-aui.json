@@ -34,7 +34,7 @@
                             },
                             “role”: {
                                 "type": "Jans::User",
-                                "SCHEME": {
+                                "roles": {
                                     "attr": "roles",
                                     "type": "String"
                                 }
