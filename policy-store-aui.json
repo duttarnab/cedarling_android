@@ -1,0 +1,50 @@
+{
+    "cedar_version": "v4.0.0",
+    "policy_stores": {
+        "gICAgcHJpbmNpcGFsIGlz": {
+            "name": "Jans",
+            "description": "",
+            "policies": {
+                "840da5d85403f35ea76519ed1a18a33989f855bf1cf8": {
+                    "description": "simple policy example for principal user",
+                    "creation_date": "2024-09-20T17:22:39.996050",
+                    "policy_content": "cGVybWl0KAogICAgcHJpbmNpcGFsIGluIFVzZXIsCiAgICBhY3Rpb24gPT0gQWN0aW9uOjoiUmVhZCIsCiAgICByZXNvdXJjZQopCndoZW4gewogICAgcHJpbmNpcGFsLnJvbGVzLnBlcm1pc3Npb25zLmNvbnRhaW5zQWxsKHJlc291cmNlLnBlcm1pc3Npb24pCn07"
+                }
+            },
+            "trusted_issuers": {
+                "595426354a058891fa795ba3d5109af177c684ab5875": {
+                    "name": "Jans",
+                    "description": "Janssen",
+                    "openid_configuration_endpoint": "https://admin-ui-test.gluu.org/.well-known/openid-configuration",
+                    "access_tokens": {
+                        "trusted": true,
+                        "principal_identifier": "jti"
+                    },
+                    "id_tokens": {},
+                    "userinfo_tokens": {
+                        "user_id": "sub",
+                        "role_mapping": "role",
+                        "claim_mapping": {
+                            "permissions": {
+                                "type": "Jans::Role”,
+                                "permissions": {
+                                    "attr": "permissions",
+                                    "type": "String"
+                                }
+                            },
+                            “role”: {
+                                "type": "Jans::User",
+                                "SCHEME": {
+                                    "attr": "roles",
+                                    "type": "String"
+                                }
+                            }
+                        }
+                    },
+                    "tx_tokens": {}
+                }
+            },
+            "schema": "bmFtZXNwYWNlIEphbnMgewplbnRpdHkgaWRfdG9rZW4gPSB7ImF1ZCI6IFN0cmluZywiaXNzIjogU3RyaW5nLCAic3ViIjogU3RyaW5nfTsKZW50aXR5IEFjY2Vzc190b2tlbiA9IHsiYXVkIjogU3RyaW5nLCJpc3MiOiBTdHJpbmcsICJqdGkiOiBTdHJpbmcsICJjbGllbnRfaWQiOiBTdHJpbmd9OwplbnRpdHkgVXNlcmluZm9fdG9rZW4gPSB7ICJwZXJtaXNzaW9ucyI6IFNldDxTdHJpbmc+LCAicm9sZSI6IFNldDxTdHJpbmc+LCDigJxzdWLigJ06IFN0cmluZyB9OwplbnRpdHkgUm9sZSA9IHsgcGVybWlzc2lvbnM6IFNldDxTdHJpbmc+IH07CmVudGl0eSBVc2VyIGluIFtSb2xlXSA9IHsgcm9sZXM6IFNldDxSb2xlPiB9OwoKZW50aXR5IFdvcmtsb2FkID0ge307CgplbnRpdHkgSXNzdWUgPSB7IHBlcm1pc3Npb246IFN0cmluZyB9OwoKICAgIGFjdGlvbiBSZWFkIGFwcGxpZXNUbyB7CiAgICAgICAgcHJpbmNpcGFsOiBbV29ya2xvYWQsIFVzZXIsIFJvbGVdLAogICAgICAgIHJlc291cmNlOiBbSXNzdWVdLAogICAgICAgIGNvbnRleHQ6IHt9CiAgICB9OwogICAgYWN0aW9uIFVwZGF0ZSBhcHBsaWVzVG8gewogICAgICAgIHByaW5jaXBhbDogW1dvcmtsb2FkLCBVc2VyLCBSb2xlXSwKICAgICAgICByZXNvdXJjZTogW0lzc3VlXSwKICAgICAgICBjb250ZXh0OiB7fQogICAgfTsKICAgIGFjdGlvbiBEZWxldGUgYXBwbGllc1RvIHsKICAgICAgICBwcmluY2lwYWw6IFtXb3JrbG9hZCwgVXNlciwgUm9sZV0sCiAgICAgICAgcmVzb3VyY2U6IFtJc3N1ZV0sCiAgICAgICAgY29udGV4dDoge30KICAgIH07Cn0="
+        }
+    }
+}
