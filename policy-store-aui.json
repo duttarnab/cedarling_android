@@ -26,15 +26,15 @@
                         "role_mapping": "role",
                         "claim_mapping": {
                             "permissions": {
-                                "type": "Jans::Role”,
-                                "permissions": {
+                              "type":"Jans::Role",
+                              "permissions": {
                                     "attr": "permissions",
                                     "type": "String"
                                 }
                             },
-                            “role”: {
+                            "role": {
                                 "type": "Jans::User",
-                                "roles": {
+                                "SCHEME": {
                                     "attr": "roles",
                                     "type": "String"
                                 }
