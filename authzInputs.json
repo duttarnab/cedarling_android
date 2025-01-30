@@ -10,6 +10,13 @@ Resource
   "type": "Jans::Issue"
 }
 
+{
+  "app_id": "admin_ui_id",
+  "id": "admin_ui_id",
+  "name": "Admin UI",
+  "permission": "view_clients",
+  "type": "Jans::Read"
+}
 ===================================================
 
 {
