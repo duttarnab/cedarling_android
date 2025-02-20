@@ -53,5 +53,5 @@
                "CEDARLING_USER_AUTHZ": "enabled",
                "CEDARLING_USER_WORKLOAD_BOOLEAN_OPERATION": "AND",
                "CEDARLING_WORKLOAD_AUTHZ": "enabled",
-               "CEDARLING_POLICY_STORE_URI": "https://raw.githubusercontent.com/duttarnab/cedarling_android/refs/heads/main/policy-store.json",
+               "CEDARLING_POLICY_STORE_URI": "https://raw.githubusercontent.com/duttarnab/cedarling_android/refs/heads/main/policy-store.json"
 }
