@@ -81,7 +81,7 @@
           "policy_content": {
             "encoding": "none",
             "content_type": "cedar",
-            "body": "permit(\n    principal is Jans::TestPrincipal1,\n    action,\n    resource\n)when{\n principal.is_ok\n};"
+            "body": "permit(\n    principal is Jans::TestPrincipal1,\n    action,\n    resource\n)when{\nprincipal.sub == resource.sub\n};"
           }
         },
         "TestPrincipal2": {
